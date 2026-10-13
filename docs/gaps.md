@@ -148,8 +148,7 @@ what an agent can't finish alone.
 - **Estimate:** 100–180 h. **Human:** checking feel on real tablets.
 
 ### G5. Transform, handles and modifiers
-- **Missing:** right-click menu during Free Transform (TOOL-214-5); commit/cancel buttons in the
-  options bar (#2442); H/V skew fields and the full interpolation list; transform keeps layer
+- **Missing:** right-click menu during Free Transform (TOOL-214-5); H/V skew fields and the full interpolation list; transform keeps layer
   order and blend mode in its preview (#2439); Hand tool interrupting a transform (#2302);
   blend mode/opacity edits during a transform (#1384); locked layers refused before the drag
   (#2585); ⌘-drag temporary Move without box or snapping (#2681), Auto-Select box follows the

@@ -68,7 +68,7 @@ Triangle and Curvature Pen (minus legacy Rounded Rectangle and Targeted Adjustme
 | Options bar X/Y, W/H % with link, angle | done | |
 | Options bar H/V skew fields | missing | |
 | Interpolation in the options bar | partial | Bicubic/Bilinear/Nearest; no Bicubic Smoother/Sharper/Automatic, Preserve Details |
-| Commit/cancel buttons in the options bar | missing | #2442 |
+| Commit/cancel buttons in the options bar | done | |
 | Right-click menu during transform (Scale, Rotate, Skew, Distort, Perspective, Warp, flips, rotates) | missing | TOOL-214-5 |
 | Arrow keys nudge the box 1 px, ⇧ 10 px | done | `move_mods.rs` |
 | Preview keeps layer order, blend mode and mask | partial | mask yes (BUG-205-2); order/blend not (#2439) |
