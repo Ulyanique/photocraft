@@ -176,6 +176,7 @@ pub fn reset_options(o: &mut ToolOptions, tool: Tool) {
         | Tool::RotateView
         | Tool::Remove
         | Tool::HistoryBrush
+        | Tool::ArtHistoryBrush
         | Tool::PathSelection
         | Tool::DirectSelection
         | Tool::Slice
