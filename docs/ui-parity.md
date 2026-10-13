@@ -12,10 +12,10 @@ Status: **done** (behaves as in Photoshop, with a test), **partial** (exists, di
 **missing**. Evidence is a file under `crates/ui-egui/src/` unless another path is given, a
 scorecard id, or an issue. Modifier names are macOS first (⌘ ⌥ ⇧); Windows/Linux use Ctrl and Alt.
 
-**Summary (estimated, weights = how often the gesture is used):** ~40% ready. Tools 56/68
-present (82%, measured). Free Transform modifiers and Crop are close to Photoshop; the gaps are
+**Summary (estimated, weights = how often the gesture is used):** ~40% ready. Tools 59/68
+present (86%, measured). Free Transform modifiers and Crop are close to Photoshop; the gaps are
 in the long tail of modifiers, in-transform UI, spring-loaded tools, panels and preferences.
-Remaining: 60–110 h for transforms and modifiers (gap G5), 60–100 h for tools (G6), 150–250 h
+Remaining: 60–110 h for transforms and modifiers (gap G5), 5–10 h for tools (G6), 150–250 h
 for panels and workspace (G9).
 
 ## Tools
@@ -34,13 +34,13 @@ Triangle and Curvature Pen (minus legacy Rounded Rectangle and Targeted Adjustme
 | Frame | Frame (frames are groups clipped by a rectangular or elliptical mask) | |
 | Eyedropper | Eyedropper, Color Sampler, Ruler, Note, Count | |
 | Retouch | Remove, Spot Healing, Healing, Patch, Content-Aware Move, Red Eye | |
-| Brush | Brush, Pencil, Mixer Brush | Color Replacement (`paint.colorReplacement` exists) |
+| Brush | Brush, Pencil, Mixer Brush, Color Replacement | |
 | Stamp | Clone Stamp, Pattern Stamp | |
 | History | History Brush | Art History Brush |
 | Eraser | Eraser, Background Eraser, Magic Eraser | |
 | Fill | Gradient, Paint Bucket | |
 | Focus, toning | Blur, Sharpen, Smudge, Dodge, Burn, Sponge | |
-| Pen | Pen, Freeform Pen, Curvature Pen (#1054), Convert Point (#3204; also ⌥ with Pen) | Add Anchor Point, Delete Anchor Point |
+| Pen | Pen, Freeform Pen, Curvature Pen (#1054), Convert Point (#3204; also ⌥ with Pen), Add Anchor Point, Delete Anchor Point | |
 | Type | Horizontal, Vertical, Vertical Type Mask, Horizontal Type Mask | |
 | Path selection | Path Selection, Direct Selection | |
 | Shapes | Rectangle, Ellipse, Triangle, Polygon, Line, Custom Shape | (Star is a Polygon option in Photoshop) |

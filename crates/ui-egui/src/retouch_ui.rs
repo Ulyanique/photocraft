@@ -125,6 +125,7 @@ pub fn finish_stroke(app: &mut PhotocraftApp, tool: Tool, points: &[[f64; 3]], m
             (if tool == Tool::Healing { "paint.healingBrush" } else { "paint.cloneStamp" }, p)
         }
         Tool::HistoryBrush => ("paint.historyBrush", json!({})),
+        Tool::ArtHistoryBrush => ("paint.artHistoryBrush", json!({})),
         Tool::Blur | Tool::Sharpen | Tool::Smudge | Tool::Dodge | Tool::Burn | Tool::Sponge => match dab_params(app, tool) {
             Some(cp) => cp,
             None => return false,
@@ -589,6 +590,7 @@ pub fn options_bar(app: &mut PhotocraftApp, ui: &mut egui::Ui, tool: Tool) -> bo
             crate::widgets::checkbox(ui, &mut o.cr_anti_alias, tl!("Anti-alias"));
         }
         Tool::HistoryBrush => opt(ui, "Paints from the document's opening state"),
+        Tool::ArtHistoryBrush => opt(ui, "Paints stylized strokes from the document's opening state"),
         Tool::QuickSelection => {
             crate::widgets::checkbox(ui, &mut o.sample_all_layers, tl!("Sample All Layers"));
             crate::widgets::checkbox(ui, &mut o.enhance_edge, tl!("Enhance Edge"));
